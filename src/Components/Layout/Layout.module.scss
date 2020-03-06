@@ -1,0 +1,64 @@
+.layout {
+    min-width: 1000px;  
+    height: inherit;
+    width: inherit;
+    min-height: inherit;
+
+    .desktop{
+        min-height: inherit;
+        height: 87vh;
+
+        div {
+            float: left;
+        }
+
+        // .desktop > menu{ height: 100%;}
+
+        div:last-child{
+            height: 100%;
+        }
+    }
+    .mobile{
+        height: 90%;
+
+        div:first-child{
+            height: 10%;
+            width: 100%;
+            min-height: 70px;
+            
+            ul{
+                justify-content: center;
+                height: 100%;
+                display: flex;     
+                padding-right: 20px;  
+    
+            }
+            ul>li{
+                padding-right: 10px;
+                width: 10%;
+                padding-left: 10px;
+                min-width: inherit;
+                
+            }
+        }
+        div:last-child{
+            width: 96%;
+        }
+    }
+}
+
+// height: 100%;        
+// .first{
+//     width: 5%;
+//     min-width: 100px;
+//     border-right: 1px solid black;
+// }
+// .second{
+//     width: 15%;
+//     min-width: 300px;
+//     border-right: 1px solid black;
+// }
+// .third{
+//     width: inherit;
+// }
+

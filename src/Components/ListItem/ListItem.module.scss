@@ -1,0 +1,15 @@
+.item {
+    height: 90px;
+    margin-bottom: 5px;
+    background-color: rgba(247, 247, 222, 0.144);
+    justify-content: center;
+
+    i {
+        float: right;
+        padding-right: 5px;
+    }
+
+    span {
+        padding: 5px;
+    }
+}
